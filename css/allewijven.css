@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+ @font-face {
+    font-family: NeutraDisplayTitling;
+    src: url(../fonts/Neutra-Display-Titling.ttf);
+}
+
 body {
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -14,7 +19,7 @@ h1 {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
   color: #C5B358;
   text-transform: uppercase;
-  font-family: Helvetica;
+  font-family: NeutraDisplayTitling;
   letter-spacing: 2px;
   text-align: right;
 }
