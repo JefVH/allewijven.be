@@ -10,10 +10,25 @@ body {
 	background: none;
 }
 
+h1 {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+  color: #C5B358;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  letter-spacing: 2px;
+  text-align: right;
+}
+
 .full {
   background: url(../img/allewijven.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media screen and (min-width: 480px) {
+    h1 {
+      font-size: 58px;
+    }
 }
