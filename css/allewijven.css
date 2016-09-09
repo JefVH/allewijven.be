@@ -30,6 +30,7 @@ h1 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-width: 100%;
 }
 
 @media screen and (min-width: 480px) {
